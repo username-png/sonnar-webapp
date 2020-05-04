@@ -1,5 +1,5 @@
 <template>
-  <div class="marketplace">
+  <div id="marketplace" class="marketplace">
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -33,27 +33,27 @@ export default {
 
 <style lang="sass" scoped>
 .marketplace
-    padding: 6em 0em 6em 0em
-    background-color: #0275D8
-    color: #FFF
+  padding: 6em 0em 6em 0em
+  background-color: #0275D8
+  color: #FFF
 
-    .marketplace-illustration
-        justify-content: center
+  .marketplace-illustration
+    justify-content: center
 
-        .marketplace-image
-            padding-left: 11em
+    .marketplace-image
+      padding-left: 11em
 
 h1
-    font-family: 'Lato', sans-serif, 'Semibold'
-    font-size: 2.5em
-    padding-bottom: 1.2em
-    color: #FFF
+  font-family: 'Lato', sans-serif, 'Semibold'
+  font-size: 2.5em
+  padding-bottom: 1.2em
+  color: #FFF
 
-    p
-        font-family: 'Lato', sans-serif, 'Regular'
-        font-size: 1.1em
-        text-align: justify
+  p
+    font-family: 'Lato', sans-serif, 'Regular'
+    font-size: 1.1em
+    text-align: justify
 
     .marketplace-costumer
-        float: right
+      float: right
 </style>
