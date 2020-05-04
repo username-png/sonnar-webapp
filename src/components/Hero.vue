@@ -2,12 +2,12 @@
   <div class="sonnar-hero">
     <Navbar />
     <div class="hero column is-two-fifths">
-      <h1 class="title">Sonnar Gestão</h1>
+      <h1 class="title">Sonnar ChatBot Gestão</h1>
       <h2 class="subtitle">
         Otimização das vendas de seu negócio online, com um sistema de gestão
         simplificado que gerencia todos os processos da venda.
       </h2>
-      <button class="button is-fullwidth">Quero Conhecer o Sonnar</button>
+      <a class="button is-fullwidth" href="#contact">Quero Conhecer o Sonnar</a>
     </div>
   </div>
 </template>
@@ -42,7 +42,7 @@ export default {
 
     h1
       font-family: 'Lato', sans-serif, 'Bold'
-      font-size: 4.5em
+      font-size: 3.5em
       text-transform: uppercase
       padding-bottom: .6em
 

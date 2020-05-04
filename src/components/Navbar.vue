@@ -25,15 +25,18 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">Overview</a>
-          <a class="navbar-item">Funcionalidades</a>
-          <a class="navbar-item">Tecnologia</a>
-          <a class="navbar-item">Contacto</a>
-          <a class="navbar-item">Sobre Nós</a>
+          <a class="navbar-item" href="#overview">Overview</a>
+          <a class="navbar-item" href="#features">Funcionalidades</a>
+          <a class="navbar-item" href="#contact">Contacto</a>
         </div>
 
         <div class="navbar-end">
-          <a class="navbar-item">Entrar</a>
+          <a
+            class="navbar-item login"
+            href="https://sonnar-dashboard.netlify.app/"
+            target="_blank"
+            >Entrar</a
+          >
         </div>
       </div>
     </nav>
@@ -42,7 +45,7 @@
 
 <script>
 export default {
-  name: "Overview"
+  name: "Navbar"
 };
 </script>
 
@@ -59,6 +62,12 @@ export default {
     text-transform: uppercase
 
   .navbar-end
+    .login
+      &:hover
+        font-weight: bold
+        background-color: transparent
+        border-bottom: none !important
+
     .navbar-item
       &:hover
         background-color: transparent

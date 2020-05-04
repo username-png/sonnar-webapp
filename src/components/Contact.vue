@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div id="contact" class="contact">
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -40,11 +40,15 @@
             <div class="control">
               <textarea
                 rows="3"
+                style="margin-top: 22px;"
                 class="textarea"
                 placeholder="Mensagem"
               ></textarea>
             </div>
-            <button class="button is-link is-uppercase is-medium">
+            <button
+              style="margin-top: 22px;"
+              class="button is-link is-uppercase is-medium"
+            >
               Enviar
             </button>
           </form>
@@ -62,33 +66,33 @@ export default {
 
 <style lang="sass" scoped>
 .contact
-    padding: 6em 0em 6em 0em
-    background-color: #FFF
+  padding: 6em 0em 6em 0em
+  background-color: #FFF
+  color: #000
+
+  h1
+    font-family: 'Lato', sans-serif, 'Semibold'
+    font-size: 2.5em
+    padding-bottom: 1.2em
     color: #000
 
-    h1
-        font-family: 'Lato', sans-serif, 'Semibold'
-        font-size: 2.5em
-        padding-bottom: 1.2em
-        color: #000
-
     p
-        font-family: 'Lato', sans-serif, 'Regular'
-        font-size: 1.1em
-        text-align: justify
+      font-family: 'Lato', sans-serif, 'Regular'
+      font-size: 1.1em
+      text-align: justify
 
     .contact-form
-        float: right
+      float: right
 
-        .input
-            border-color: #333333
-            padding: 25px
+      .input
+        border-color: #333333
+        padding: 25px
 
         .textarea
-            border-color: #333333
-            padding: 25px
-            margin-top: 25px
+          border-color: #333333
+          padding: 25px
+          margin-top: 25px
 
         button
-            margin-top: 16px
+          margin-top: 16px
 </style>

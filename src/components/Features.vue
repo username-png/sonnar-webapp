@@ -1,5 +1,5 @@
 <template>
-  <div class="features">
+  <div id="features" class="features">
     <div class="container">
       <h2 class="subtitle has-text-centered">Funcionalidades</h2>
       <div class="columns">
@@ -8,9 +8,12 @@
             <img src="../assets/images/sonnar-money.png" alt />
           </div>
           <div class="features-description">
-            <h3>Supports All Currencies and Cards</h3>
+            <h3>Aumente suas Vendas</h3>
             <p>
-              We support all popular currencies and is fully customizable to add
+              Utilizamos de recursos de inteligência artificial para tornarmos
+              nosso bot o máximo independente possível, num formato que permita
+              maior disponibilidade de tempo para o lojista e maior rapidez de
+              atendimento para o comprador.
             </p>
           </div>
         </div>
@@ -28,12 +31,15 @@
         </div>
         <div class="column is-one-quarter">
           <div>
-            <img src="../assets/images/sonnar-alert.png" alt />
+            <img src="../assets/images/sonnar-ranking.png" alt />
           </div>
           <div class="features-description">
-            <h3>Supports All Currencies and Cards</h3>
+            <h3>Ranking e Bonificação</h3>
             <p>
-              We support all popular currencies and is fully customizable to add
+              Gamificando nosso sistema para pontuar e ranquear os vendedores
+              com melhores taxas de resposta e tempo de envio, dando destaque na
+              plataforma e sanando uma necessidade exposta pelo cliente de
+              precisar de confiança.
             </p>
           </div>
         </div>
@@ -79,6 +85,7 @@ export default {
         text-align: center
         padding-bottom: .5em
         text-transform: capitalize
+        font-weight: bold
 
       div > p
         font-family: 'Lato', sans-serif, 'Regular'
